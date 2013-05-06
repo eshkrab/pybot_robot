@@ -1,4 +1,4 @@
-//zoomkat servo-LED button toggle test 11-12-2012
+//RGB BT comm tester code for MASTER
 
 
 int switch1 = 3; //switch1 pin
