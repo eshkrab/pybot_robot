@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="595.28px" height="566.93px" viewBox="0 0 595.28 566.93" enable-background="new 0 0 595.28 566.93" xml:space="preserve">
+<g id="Layer_1">
+	<rect x="-0.866" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="566.929" height="170.079"/>
+	
+		<rect x="0" y="176.426" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="565.198" height="170.078"/>
+	<polygon fill="none" points="82.615,68.521 82.925,123.375 65.735,123.513 65.116,68.662 	"/>
+	
+		<text transform="matrix(-0.0113 -0.9999 0.9999 -0.0113 74.2485 123.3574)" fill="#0000FF" font-family="'MyriadPro-Regular'" font-size="12">ARDUINO</text>
+	
+		<rect x="276.889" y="7.087" fill="none" stroke="#1C1C1C" stroke-width="0.25" stroke-miterlimit="10" width="226.772" height="155.905"/>
+	<circle fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" cx="532.914" cy="85.37" r="20.551"/>
+	<circle fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" cx="157.338" cy="191.258" r="4.252"/>
+	<circle fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" cx="157.338" cy="330.252" r="4.252"/>
+	<circle fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" cx="532.914" cy="260.32" r="20.551"/>
+	
+		<rect x="1.433" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="77.744" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="147.621" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="214.982" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="283" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="352.46" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="425.653" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+	
+		<rect x="496.771" y="352.375" fill="none" stroke="#FF0000" stroke-width="0.25" stroke-miterlimit="10" width="56.693" height="28.346"/>
+</g>
+<g id="Layer_2">
+	
+		<path id="path3132" sodipodi:nodetypes="cccccccccc" inkscape:connector-curvature="0" fill="none" stroke="#0000FF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" d="
+		M56.287,163.089h192.847v-7.417l7.417-7.417V51.832l-7.417-7.417V11.037l-3.709-3.708H56.287V163.089z"/>
+	
+		<rect id="rect3908" x="50.724" y="127.858" fill="none" stroke="#0000FF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" width="38.94" height="25.96"/>
+	
+		<rect id="rect3950" x="37.744" y="35.143" fill="none" stroke="#0000FF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" width="46.357" height="33.377"/>
+	
+		<path id="path4253" sodipodi:cx="119.25381" sodipodi:ry="2.4961903" sodipodi:rx="2.4961903" sodipodi:cy="339.31631" sodipodi:type="arc" fill="#FFFFFF" stroke="#FF0000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" d="
+		M253.764,140.838c0,2.555-2.073,4.628-4.63,4.628c-2.555,0-4.629-2.073-4.629-4.628c0-2.557,2.074-4.628,4.629-4.628
+		C251.69,136.209,253.764,138.281,253.764,140.838z"/>
+	
+		<path id="path4371" sodipodi:cx="119.25381" sodipodi:ry="2.4961903" sodipodi:rx="2.4961903" sodipodi:cy="339.31631" sodipodi:type="arc" fill="#FFFFFF" stroke="#FF0000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" d="
+		M253.764,59.249c0,2.557-2.073,4.628-4.63,4.628c-2.555,0-4.629-2.072-4.629-4.628c0-2.557,2.074-4.629,4.629-4.629
+		C251.69,54.62,253.764,56.692,253.764,59.249z"/>
+	
+		<path id="path4355" sodipodi:cx="119.25381" sodipodi:ry="2.4961903" sodipodi:rx="2.4961903" sodipodi:cy="339.31631" sodipodi:type="arc" fill="#FFFFFF" stroke="#FF0000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" d="
+		M105.42,14.746c0,2.557-2.073,4.629-4.63,4.629c-2.555,0-4.628-2.072-4.628-4.629c0-2.557,2.073-4.628,4.628-4.628
+		C103.347,10.117,105.42,12.189,105.42,14.746z"/>
+	
+		<path id="path4554" sodipodi:cx="119.25381" sodipodi:ry="2.4961903" sodipodi:rx="2.4961903" sodipodi:cy="339.31631" sodipodi:type="arc" fill="#FFFFFF" stroke="#FF0000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" d="
+		M101.712,155.672c0,2.555-2.073,4.629-4.63,4.629c-2.555,0-4.628-2.074-4.628-4.629c0-2.557,2.073-4.628,4.628-4.628
+		C99.639,151.043,101.712,153.115,101.712,155.672z"/>
+</g>
+</svg>

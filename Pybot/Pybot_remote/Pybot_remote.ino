@@ -1,11 +1,11 @@
-int switch1 = 8; //switch1 pin
-int switch2 = 9;  //switch2
-int switch3 = 10;  //switch3
+int remote_switch = 8; //switch1 pin
+int IR_switch = 9;  //switch2
+int light_switch = 10;  //switch3
 
-int buttonLeft = 6;
+int buttonLeft = 3;
 int buttonForward = 5;
-int buttonRight = 4;
-int buttonBack = 3;
+int buttonRight = 6;
+int buttonBack = 4;
 
 int s1 = 0;  //switch value variable
 int s2 = 0;
@@ -19,50 +19,50 @@ void setup()
   Serial.print("$$$");
   delay(100);
   Serial.println("SM,1");  delay(100);
-  Serial.println("C,0006664859F6");  //the specific MAC address for the bt module
+  Serial.println("C,0006664EE472");  //the specific MAC address for the bt module
   delay(100);
   Serial.println("---");
   
   //pin setup code
   pinMode(13, OUTPUT); //LED on pin 13
-  pinMode(switch1, INPUT_PULLUP); //monitor pin state, enable pullups to make pin high
-  pinMode(switch2, INPUT_PULLUP); //monitor pin state, enable pullups to make pin high
-  pinMode(switch3, INPUT_PULLUP); //monitor pin state, enable pullups to make pin high
+  pinMode(remote_switch, INPUT_PULLUP); //monitor pin state, enable pullups to make pin high
+  pinMode(IR_switch, INPUT_PULLUP); //monitor pin state, enable pullups to make pin high
+  pinMode(light_switch, INPUT_PULLUP); //monitor pin state, enable pullups to make pin high
 }
 
 void loop()
 { 
  if (true ){//Serial.available() > 0) {
     
-    if (checkPressed(switch1))
+    if (checkPressed(remote_switch))
     {
       Serial.println("0");
       if (checkPressed(buttonLeft))
         {
-          Serial.println('l');   // set the LED on
+          Serial.println('l');   
         }
         
-        if (checkPressed(buttonForward))
+      if (checkPressed(buttonForward))
         {
-          Serial.println('f');   // set the LED on
+          Serial.println('f');  
         }
        
-        if (checkPressed(buttonRight))
+      if (checkPressed(buttonRight))
         {
-          Serial.println('r');   // set the LED on
+          Serial.println('r');   
          
         }
-        if (checkPressed(buttonBack))
+      if (checkPressed(buttonBack))
         {
-          Serial.println('b');    // set the LED off 
+          Serial.println('b');    
          }
     
     }
-    if (checkPressed(switch2))
+    else if (checkPressed(IR_switch))
     {
       Serial.println("1");
     }
-    if (checkPressed(switch3))
+    else if (checkPressed(light_switch))
     {
       Serial.println("2");
     }

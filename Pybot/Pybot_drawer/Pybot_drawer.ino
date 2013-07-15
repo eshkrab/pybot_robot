@@ -80,35 +80,35 @@
   {
     val = Serial.read();
     if (val == 'f'){
-    Serial.println("f");
-    rightFor();
-    leftFor();
+      Serial.println("f");
+      rightForward();
+      leftForward();
     
-  }
-  else if (val == 'b'){
-    Serial.println("b");
-    rightBack();
-    leftBack();
+    }
+      else if (val == 'b'){
+        Serial.println("b");
+        rightBackward();
+        leftBackward();
     
-  }
-  else if (val == 'l'){
-     Serial.println("l");
-     leftBack();
-     rightFor();
+    }
+     else if (val == 'l'){
+       Serial.println("l");
+       leftBackward();
+       rightForward();
      
   }
-  else if (val =='r'){
-    Serial.println("r");
-    leftFor();
-    rightBack(); 
+    else if (val =='r'){
+      Serial.println("r");
+      leftForward();
+      rightBackward(); 
     
   }
     
     if( val == '0')
     {
       Serial.println("remote");
-      rightStop();
-      leftStop();     
+     // rightStop();
+      //leftStop();     
       //remoteListen();
     }
     else if (val == '1'){
@@ -141,24 +141,24 @@ void remoteListen(){
   
   if (signal == 'f'){
     Serial.println("f");
-    rightForward();
-    leftForward();
+    rightFor();
+    leftFor();
   }
   else if (signal == 'b'){
     Serial.println("b");
-    rightBackward();
-    leftBackward();
+    rightBack();
+    leftBack();
   }
   else if (signal == 'l'){
      Serial.println("l");
-     leftBackward();
-     rightForward();
+     leftBack();
+     rightFor();
      
   }
   else if (signal =='r'){
     Serial.println("r");
-    leftForward();
-    rightBackward(); 
+    leftFor();
+    rightBack(); 
     
 
   }
@@ -187,16 +187,16 @@ void lightFollow(){
   LDR_center=(L_LDR_val-R_LDR_val);
   
   if(LDR_center<0 && abs(LDR_center) > deadband){
-    rightBack(); //deadband prevents oscillation around 0 
-    leftFor();
+    rightBackward(); //deadband prevents oscillation around 0 
+    leftForward();
   }
   else if((LDR_center< 0) && (abs(LDR_center) > deadband)){
-    leftBack; //deadband prevents oscillation around 0
-    rightFor;
+    leftBackward; //deadband prevents oscillation around 0
+    rightForward;
   }
   else{
-   leftFor();
-   rightFor();
+   leftForward();
+   rightForward();
   }
   
   delay(10);
@@ -288,6 +288,7 @@ void leftForward(){
       delay(25);
       digitalWrite(lmotor1Pin, LOW);  // set leg 1 of the H-bridge high
       digitalWrite(lmotor2Pin, LOW);   // set leg 2 of the H-bridge low
+      delay(3);
       
   } 
 void rightBackward(){
@@ -296,6 +297,7 @@ void rightBackward(){
       delay(25);
       digitalWrite(rmotor1Pin, LOW);  // set leg 1 of the H-bridge high
       digitalWrite(rmotor2Pin, LOW);   // set leg 2 of the H-bridge low
+      delay(3);
       
   } 
 void leftBackward(){
@@ -309,19 +311,23 @@ void leftBackward(){
  void rightBack(){
       digitalWrite(rmotor1Pin, HIGH);  // set leg 1 of the H-bridge high
       digitalWrite(rmotor2Pin, LOW);   // set leg 2 of the H-bridge low
+      delay(100);
      
   } 
 void leftBack(){
       digitalWrite(lmotor1Pin, HIGH);  // set leg 1 of the H-bridge high
       digitalWrite(lmotor2Pin, LOW);   // set leg 2 of the H-bridge low
+      delay(100);
 }
 void rightFor(){
     digitalWrite(rmotor1Pin, LOW);   // set leg 1 of the H-bridge low
       digitalWrite(rmotor2Pin, HIGH);  // set leg 2 of the H-bridge high
+      delay(100);
   }
 void leftFor(){
       digitalWrite(lmotor1Pin, LOW);   // set leg 1 of the H-bridge low
       digitalWrite(lmotor2Pin, HIGH);  // set leg 2 of the H-bridge high
+      delay(100);
 }
 void leftStop(){
       digitalWrite(lmotor1Pin, LOW);  // set leg 1 of the H-bridge high
